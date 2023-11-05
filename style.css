@@ -158,6 +158,9 @@ body {
 .form-control-as {
   width: 20%;
 }
+.form-control-cs {
+  width: 15%;
+}
 
 .valid-subject {
   text-align: center;
