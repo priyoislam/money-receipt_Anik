@@ -31,13 +31,10 @@ body {
 
 .top-copy {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.item-1 {
-  margin-left: 40%;
-}
 
 #copyText
 
@@ -49,7 +46,7 @@ body {
 
 
 .title-name {
-  width: 80%;
+  width: 70%;
   font-size: 18px;
 }
 
@@ -66,12 +63,11 @@ body {
   top: 60%;
   left: 50%;
   transform: translate(-50%, 0%);
-  opacity: 0.18;
-  /* Adjust the opacity as desired (0.2 means 20% opacity) */
+  opacity: 0.22;
+ 
   pointer-events: none;
 
   width: 700px;
-  /* Set the width of the watermark logo */
   height: auto;
 }
 
@@ -99,32 +95,30 @@ body {
 
 
 .plot-info {
-  display: flex;
-  align-items: center;
+  
   border: 2px solid black;
   margin-top: 10px;
-  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.plot-info h3 {
-  margin: 0;
-  /* Remove default margin for h3 */
-  margin-right: 10px;
-  width: 30%;
-  /* Optional margin between h3 and address */
+
+.plot-info h2 {
+  margin: 0px;
+  text-decoration: underline;
+ 
 }
 
 .address {
-  width: 70%;
+
   display: flex;
-  justify-content: space-around;
-  /* Space elements evenly */
-
+  justify-content: space-between;
+  width: 90%;
 }
-
-.address p {
-  margin: 0;
-  /* Remove default margin for paragraphs */
+.address p{
+  margin-bottom: 0;
 }
 
 
@@ -170,7 +164,7 @@ body {
 .author-area {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 20mm;
 }
 
 .author {
@@ -192,5 +186,5 @@ body {
 }
 .qr img
 {
-  height: 40mm;
+  height: 30mm;
 }

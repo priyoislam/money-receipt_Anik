@@ -25,15 +25,19 @@
                 <div class="title-name">
                     <h2>Goldeneye Developers limited</h2>
                 </div>
+                <h3 class="item-2" id="copyText">Customer Copy</h3>
                 
             </div>
-            <h6 class="top-address">42-43 Siddeswari Circular Road, Treasure Island, Suite No-503, Shantinagar, Dhaka-1217.
-            </h6>
+            <p class="top-address">
+                Dhaka Western Valley, 42-43 Siddeswari Circular Road, Treasure Island,  
+            </p>
+            <p class="top-address">Suite No-503, Shantinagar,  Dhaka-1217
+                Tel: +8802222229663, Mob: +88 01678085871</p>
 
             <div class="top-copy">
 
                 <h2 class="item-1">Money Receipt</h2>
-                <h3 class="item-2" id="copyText">File Copy</h3>
+                
 
             </div>
 
@@ -59,10 +63,12 @@
 
         <!-- Plot information section start -->
         <div class="plot-info">
-            <h3>Plot Information</h3>
+
+            <h2>Plot Information</h2>
+            
             <div class="address">
+                <p> Project name # Dhaka Western Valley</p>
                 <p>Sector # 1</p>
-                <p>Block # D</p>
                 <p>Road # 29</p>
                 <p>Plot # EXT-17</p>
             </div>
@@ -143,7 +149,7 @@
 
         // Change the first copyText element's text content in the header to "Office Copy"
         var firstCopyTextElement = bodyContent.querySelector('#copyText');
-        firstCopyTextElement.textContent = 'Office Copy';
+        firstCopyTextElement.textContent = 'File Copy';
 
         // Create the first clone with modified content
         var firstClonedContent = bodyContent.cloneNode(true);
@@ -153,7 +159,7 @@
 
         // Change the second copyText element's text content in the header to "Customer Copy"
         var secondCopyTextElement = firstClonedContent.querySelector('#copyText');
-        secondCopyTextElement.textContent = 'Customer Copy';
+        secondCopyTextElement.textContent = 'Office  Copy';
 
         // Create the second clone with modified content
         var secondClonedContent = bodyContent.cloneNode(true);
