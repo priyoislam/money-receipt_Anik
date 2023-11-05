@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,11 +25,19 @@
                 <div class="title-name">
                     <h2>Goldeneye Developers limited</h2>
                 </div>
+                
             </div>
-            <h6>42-43 Siddeswari Circular Road, Treasure Island, Suite No-503, Shantinagar,  Dhaka-1217.</h6>
-            <h2>money receipt</h2>
-            <h3 id="copyText">File Copy</h3>
+            <h6 class="top-address">42-43 Siddeswari Circular Road, Treasure Island, Suite No-503, Shantinagar, Dhaka-1217.
+            </h6>
 
+            <div class="top-copy">
+
+                <h2 class="item-1">Money Receipt</h2>
+                <h3 class="item-2" id="copyText">File Copy</h3>
+
+            </div>
+
+          
         </div>
     </header>
     <main>
@@ -123,11 +131,15 @@
             </div>
         </div>
 
+        <div class="qr">
+            <img src="images/qrcode.png" alt="qrcode">
+        </div>
 
+      
     </main>
 
     <script>
-       var bodyContent = document.body.cloneNode(true);
+        var bodyContent = document.body.cloneNode(true);
 
         // Change the first copyText element's text content in the header to "Office Copy"
         var firstCopyTextElement = bodyContent.querySelector('#copyText');
@@ -149,15 +161,16 @@
         // Append the second cloned content after the first clone
         document.body.appendChild(secondClonedContent);
     </script>
-    
-    </body>
-    </html>
-    
-    
-    
-    
-    
-    
+
+</body>
+
+</html>
+
+
+
+
+
+
 </body>
 
 </html>
