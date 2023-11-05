@@ -8,13 +8,13 @@ main {
 }
 header
 {
-  padding: 0 10%;
+  padding: 10% 10%;
 }
 body {
     /* background-color: powderblue; */
     font-family: 'Poppins', sans-serif;
     /* padding: 0 10%; */
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .watermark {
@@ -59,7 +59,7 @@ body {
 
 
   .title-name {
-    width: 70%;
+    width: 80%;
     font-size: 18px;
   }
 
@@ -69,13 +69,13 @@ body {
     justify-content: space-between;
   }
   .customer-id {
-    width: 25%;
+    width: 35%;
     border: 2px solid black;
     padding-left: 10px;
   }
 
   .date {
-    width: 25%;
+    width: 35%;
     border: 2px solid black;
     padding-left: 10px;
   }
