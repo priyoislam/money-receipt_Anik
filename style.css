@@ -2,10 +2,7 @@
   size: A4;
   margin: 0;
 }
-main {
-  page-break-after: always;
-  padding: 0 10%;
-}
+
 header
 {
   padding: 10% 10%;
@@ -15,6 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     /* padding: 0 10%; */
     /* height: 100vh; */
+    page-break-after: always;
   }
 
   .watermark {
