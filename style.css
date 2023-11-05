@@ -1,0 +1,169 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+main {
+  page-break-after: always;
+  padding: 0 10%;
+}
+header
+{
+  padding: 0 10%;
+}
+body {
+    /* background-color: powderblue; */
+    font-family: 'Poppins', sans-serif;
+    /* padding: 0 10%; */
+    height: 100vh;
+  }
+
+  .watermark {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.watermark-logo {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    opacity: 0.18; /* Adjust the opacity as desired (0.2 means 20% opacity) */
+    pointer-events: none;
+     
+     width: 700px; /* Set the width of the watermark logo */
+     height: auto; 
+    }
+
+
+
+
+  .top-title-area {
+    text-align: center;
+    text-transform: uppercase;    
+  }
+
+  .top-title {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+
+#copyText
+{
+  display: inline;
+  background-color: lightgrey;
+  padding: 0px 5px;
+}
+
+
+  .title-name {
+    width: 70%;
+    font-size: 18px;
+  }
+
+
+  .customer-detail {
+    display: flex;
+    justify-content: space-between;
+  }
+  .customer-id {
+    width: 25%;
+    border: 2px solid black;
+    padding-left: 10px;
+  }
+
+  .date {
+    width: 25%;
+    border: 2px solid black;
+    padding-left: 10px;
+  }
+  .customer-id p {
+    margin: 5px;
+  }
+
+
+  .plot-info {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.plot-info h3 {
+    margin: 0; /* Remove default margin for h3 */
+    margin-right: 10px; 
+    width: 30%;/* Optional margin between h3 and address */
+}
+
+.address {
+  width: 70%;
+  display: flex;
+  justify-content: space-around; /* Space elements evenly */
+  
+}
+
+.address p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+
+
+  .input-detail {
+    margin-top: 30px;
+  }
+
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .form-group input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* padding: 8px;
+    padding-bottom: -2px; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+
+  .form-control-received {
+    width: 60%;
+  }
+
+  .form-control {
+    width: 25%;
+  }
+
+  .form-control-as {
+    width: 20%;
+  }
+
+  .valid-subject {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .author-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  .author {
+    border-top: 2px solid black;
+    width: 200px;
+  }
+
+  .author p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  

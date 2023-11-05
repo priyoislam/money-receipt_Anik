@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;900&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="top-title-area">
+            <div class="top-title">
+                <img src="./images/goldeneye.png" width="15%" alt="">
+                <div class="title-name">
+                    <h2>Goldeneye Developers limited</h2>
+                </div>
+            </div>
+            <h2>money receipt</h2>
+            
+            <h3 id="copyText">File Copy</h3>
+
+        </div>
+    </header>
+    <main>
+        <!-- Customer detail section start -->
+        <div class="watermark">
+            <img src="images/goldeneye.png" alt="Logo" class="watermark-logo">
+            <!-- Your existing content goes here -->
+        </div>
+        <div class="customer-detail">
+            <div class="customer-id">
+                <p>Customer ID: C-05942</p>
+                <p>MR Number: #30558</p>
+            </div>
+            <div class="date">
+                <p>Date: 02-November-2023</p>
+            </div>
+        </div>
+        <!-- Customer detail section end -->
+
+        <!-- Plot information section start -->
+        <div class="plot-info">
+            <h3>Plot Information</h3>
+            <div class="address">
+                <p>Sector # 1</p>
+                <p>Block # D</p>
+                <p>Road # 29</p>
+                <p>Plot # EXT-17</p>
+            </div>
+        </div>
+        <!-- Plot information section end -->
+
+        <!-- Input section start -->
+        <div class="input-detail">
+            <div class="form-group">
+                <label class="control" for="">Received with Thanks from :</label>
+                <input id="" name="name" type="text" placeholder="Your name" class="form-control-received">
+            </div>
+            <p>In the form of</p>
+            <div class="form-group">
+                <label class="control" for=""> Cash|Cheque|Pay Order|DD No :</label>
+                <input id="" name="name" type="text" placeholder="Cash" class="form-control-as">
+                <label class="control" for="">Date :</label>
+                <input id="" name="name" type="text" placeholder="" class="form-control-as">
+            </div>
+            <div class="form-group">
+                <label class="control" for="">On the Bank :</label>
+                <input id="" name="name" type="text" placeholder="" class="form-control">
+                <label class="control" for="">On the Branch :</label>
+                <input id="" name="name" type="text" placeholder="" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="control" for="">Against the Land :</label>
+                <input id="" name="name" type="text" placeholder="5 Katha" class="form-control">
+                <label class="control" for="">Project Name :</label>
+                <input id="" name="name" type="text" placeholder="PADMA ECO CITY" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="control" for="">As :</label>
+                <input id="" name="name" type="text" placeholder="Down Payment" class="form-control-as">
+                <label class="control" for="">Plot Type :</label>
+                <input id="" name="name" type="text" placeholder="Residential" class="form-control-as">
+                <label class="control" for="">Others :</label>
+                <input id="" name="name" type="text" placeholder="" class="form-control-as">
+            </div>
+            <div class="form-group">
+                <label class="control" for="">Installment for the Month of :</label>
+                <input id="" name="name" type="text" placeholder="" class="form-control-received">
+            </div>
+            <div class="form-group">
+                <label class="control" for="">Amount :</label>
+                <input id="" name="name" type="text" placeholder="100,000.00" class="form-control">
+                <label class="control" for="">Amount in Words :</label>
+                <input id="" name="name" type="text" placeholder="One Lac Only" class="form-control">
+            </div>
+            <div class="valid-subject">
+                <p>This Receipts is Valid Subject to Realization of the Cheque</p>
+            </div>
+        </div>
+        <!-- Input section end -->
+
+        <!-- Author section start -->
+        <div class="author-area">
+            <div class="author">
+                <p>Prepared by</p>
+            </div>
+            <div class="author">
+                <p>Checked by</p>
+            </div>
+            <div class="author">
+                <p>Authorized by</p>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script>
+       var bodyContent = document.body.cloneNode(true);
+
+        // Change the first copyText element's text content in the header to "Office Copy"
+        var firstCopyTextElement = bodyContent.querySelector('#copyText');
+        firstCopyTextElement.textContent = 'Office Copy';
+
+        // Create the first clone with modified content
+        var firstClonedContent = bodyContent.cloneNode(true);
+
+        // Append the first cloned content after the original body
+        document.body.appendChild(firstClonedContent);
+
+        // Change the second copyText element's text content in the header to "Customer Copy"
+        var secondCopyTextElement = firstClonedContent.querySelector('#copyText');
+        secondCopyTextElement.textContent = 'Customer Copy';
+
+        // Create the second clone with modified content
+        var secondClonedContent = bodyContent.cloneNode(true);
+
+        // Append the second cloned content after the first clone
+        document.body.appendChild(secondClonedContent);
+    </script>
+    
+    </body>
+    </html>
+    
+    
+    
+    
+    
+    
+</body>
+
+</html>
