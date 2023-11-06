@@ -27,6 +27,7 @@ body {
 
 .top-address {
   margin: 0px;
+  font-size: 14px;
 }
 
 .top-copy {
@@ -41,7 +42,8 @@ body {
   {
   display: inline;
   background-color: lightgrey;
-  padding: 0px 5px;
+  padding: 0px 2px;
+  font-size: 18px;
 }
 
 
