@@ -1,17 +1,17 @@
 @page {
   size: A4;
-  margin: .5in .5in .5in .5in;
+  margin: .4in .5in .4in .5in;
 }
 
 /* header
 {
   padding: 10% 10%;
 } */
+
 body {
  
   font-family: 'Poppins', sans-serif;
-  page-break-after: always;
-  /* size: 8.27in 11.69in; */
+  size: 8.27in 11.69in;
   
 }
 
@@ -24,18 +24,10 @@ body {
   display: flex;
   align-items: center;
 }
-
-.top-address {
-  margin: 0px;
+.title-name {
+  width: 65%;
   font-size: 14px;
 }
-
-.top-copy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 #copyText
 
@@ -43,18 +35,22 @@ body {
   display: inline;
   background-color: red;
   color: white;
-  padding: 0px 2px;
-  font-size: 18px;
-  width: 15%;
+  padding: 0px 0px;
+  font-size: 12px;
+  width: 20%;
 }
 
-
-.title-name {
-  width: 70%;
-  font-size: 18px;
+.top-address {
+  margin: 0px;
+  font-size: 10px;
 }
 
-
+.top-copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
 
 .watermark {
   position: relative;
@@ -66,7 +62,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 30%);
   opacity: 0.22;
  
   pointer-events: none;
@@ -82,15 +78,17 @@ body {
 }
 
 .customer-id {
-  width: 35%;
+  width: 25%;
   border: 2px solid black;
   padding-left: 10px;
+  font-size: 12px;
 }
 
 .date {
-  width: 35%;
+  width: 25%;
   border: 2px solid black;
   padding-left: 10px;
+  font-size: 12px;
 }
 
 .customer-id p {
@@ -112,6 +110,7 @@ body {
 .plot-info h2 {
   margin: 0px;
   text-decoration: underline;
+  font-size: 14px;
  
 }
 
@@ -120,6 +119,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 90%;
+  font-size: 12px;
 }
 .address p{
   margin-bottom: 0;
@@ -134,7 +134,7 @@ body {
 .form-group {
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 20px;
 }
 
@@ -146,29 +146,29 @@ body {
 }
 
 .form-control-received {
-  width: 60%;
+  width: 72%;
 }
 
 .form-control {
-  width: 25%;
+  width: 30%;
 }
 
 .form-control-as {
   width: 20%;
 }
 .form-control-cs {
-  width: 15%;
+  width: 22%;
 }
 
 .valid-subject {
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .author-area {
   display: flex;
   justify-content: space-between;
-  margin-top: 20mm;
+  margin-top: 35mm;
 }
 
 .author {
@@ -178,7 +178,7 @@ body {
 
 .author p {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 5px;
 }
 
@@ -187,6 +187,7 @@ body {
   display: flex;
             justify-content: center;
             align-items: center;
+            page-break-after: always;
 }
 .qr img
 {
