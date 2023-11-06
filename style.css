@@ -41,9 +41,11 @@ body {
 
   {
   display: inline;
-  background-color: lightgrey;
+  background-color: red;
+  color: white;
   padding: 0px 2px;
   font-size: 18px;
+  width: 15%;
 }
 
 
@@ -62,9 +64,9 @@ body {
 
 .watermark-logo {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 50%);
   opacity: 0.22;
  
   pointer-events: none;
