@@ -27,6 +27,7 @@ body {
 .title-name {
   width: 65%;
   font-size: 14px;
+  padding-left: 20px;
 }
 
 #copyText
@@ -130,6 +131,13 @@ body {
 .input-detail {
   margin-top: 30px;
 }
+.form-size
+{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  
+}
 
 .form-group {
   display: flex;
@@ -150,7 +158,7 @@ body {
 }
 
 .form-control {
-  width: 30%;
+  flex: 1;
 }
 
 .form-control-as {
